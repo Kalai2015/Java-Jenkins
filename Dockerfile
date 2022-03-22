@@ -1,7 +1,4 @@
 FROM openjdk:8
-
 EXPOSE 8082
-
-ADD target/JenkinTestJar.jar JenkinTestJar.jar
-
-ENTRYPOINT [ "java","-jar","/JenkinTestJar.jar" ]
+ADD target/docker-jenkin-test.jar docker-jenkin-test.jar
+ENTRYPOINT [ "java","-jar","/docker-jenkin-test.jar" ]
