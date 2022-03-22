@@ -35,7 +35,7 @@
         </configuration>
     </plugin>
    </plugins>
-   <finalName>JenkinTestJar</finalName>
+   <finalName>docker-jenkin-test</finalName>
    </build>
   
 </project>
