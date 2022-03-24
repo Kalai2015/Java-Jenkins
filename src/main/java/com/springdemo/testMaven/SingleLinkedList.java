@@ -25,7 +25,7 @@ public class SingleLinkedList {
 	
 	public void printList()
 	{
-		System.out.println("Inside printlist");
+		System.out.println("Inside printlist --> Newly updated with ");
 		ListNode current = head;
 		while(current != null)
 		{
